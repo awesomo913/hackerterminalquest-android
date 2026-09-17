@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.HackerTerminal" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorPrimary">#00FF41</item>
+        <item name="android:colorPrimaryDark">#000000</item>
+        <item name="android:colorAccent">#00BFFF</item>
+        <item name="android:textColorPrimary">#00FF41</item>
+        <item name="android:editTextStyle">@style/TerminalEditText</item>
+    </style>
+
+    <style name="TerminalEditText" parent="android:Widget.EditText">
+        <item name="android:textColor">#00FF41</item>
+        <item name="android:textColorHint">#336633</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+</resources>
