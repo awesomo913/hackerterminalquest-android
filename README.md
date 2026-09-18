@@ -18,9 +18,11 @@ Kotlin, Android Gradle Plugin 8.1, Kotlin Gradle plugin 1.9, min SDK 24 / target
 **Requirements** — Android Studio (or the Gradle wrapper) with SDK 34 installed.
 
 **Run**
+The Gradle wrapper isn't committed (no `gradlew`), though `build.gradle`/`settings.gradle` are present.
 ```bash
-./gradlew assembleDebug
-# or open the project in Android Studio and run the app module directly
+# open the project in Android Studio and run the app module directly
+# (Android Studio will generate the missing wrapper on sync)
+# — or, with Gradle installed: gradle wrapper && ./gradlew assembleDebug
 ```
 
 ## Status
